@@ -1,0 +1,70 @@
+/*
+Paleta de cores:
+Branco: #f6f5f5
+Azul Claro: #145374
+Azul Escuro: #00334e
+Salmão: #ee6f57
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #145374;
+}
+
+section {
+    padding: 50px 12.5%;
+}
+
+@media (max-width: 1200px) {
+    section {
+        padding: 50px 5%;
+    }
+}
+
+/* Barra de Navegação */
+
+#barra-de-navegacao, #item-barra-de-navegacao {
+    background-color: #00334e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    #barra-de-navegacao {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+.logomarca-barra-de-navegacao {
+    width: 120px;
+    padding: 0;
+}
+
+.item-barra-de-navegacao {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px 20px 0;
+}
+
+/* Escovação */
+
+.escovacao-div {
+    text-align: center;
+    padding-top: 20px;
+    color: #f6f5f5;
+    /*background-color: #ee6f57;*/
+    height: 1000px;
+}
