@@ -6,6 +6,13 @@ Azul Escuro: #00334e
 Salmão: #ee6f57
 */
 
+:root {
+	--branco: #f6f5f5;
+	--azul-claro: #145374;
+	--azul-escuro: #00334e;
+	--salmao: #ee6f57;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -18,20 +25,31 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #145374;
+    background-color: var(--azul-claro);
 }
 
-section {
+.main-div {
     padding: 50px 12.5%;
 }
 
 @media (max-width: 1200px) {
-    section {
+    .main-div {
         padding: 50px 5%;
     }
 }
 
 /* Barra de Navegação */
+
+#barra-de-navegacao {
+    padding: 50px 12.5%;
+}
+
+@media (max-width: 1200px) {
+    #barra-de-navegacao {
+        padding: 50px 5%;
+    }
+}
+
 
 #barra-de-navegacao, #item-barra-de-navegacao {
     background-color: #00334e;
@@ -59,12 +77,108 @@ section {
     padding: 5px 20px 0;
 }
 
-/* Escovação */
+/* */
 
-.escovacao-div {
+#escovacao {
+
+}
+
+#fiodental {
+	background-color: var(--azul-escuro);
+}
+
+/* Geral */
+
+.titulo {
     text-align: center;
     padding-top: 20px;
+	padding-bottom: 50px;
     color: #f6f5f5;
     /*background-color: #ee6f57;*/
-    height: 1000px;
+}
+
+.gif {
+	width: 350px;
+	height: 350px;
+}
+
+.gif-escovacao {
+	border: 15px solid var(--azul-escuro);
+}
+
+.gif-fiodental {
+	border: 15px solid var(--azul-claro);
+}
+
+.text {
+	font-size: 1.5rem;
+	color: var(--branco);
+	padding: 15px;
+}
+
+.conjunto-gif-texto {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.icone {
+	width: 40px;
+	margin-left: 10px;
+}
+
+.pagina-inteira {
+}
+/*
+.fundo {
+	width: 100%;
+	position: absolute;
+	padding-top: 50px;
+}
+*/
+
+.fundo1 {
+	position: absolute;
+	top: 700px;
+	left: 1%;
+	width: 15%;
+}
+
+.fundo2 {
+	position: absolute;
+	top: 700px;
+	right: 1%;
+	width: 15%;
+}
+
+.fundo3 {
+	position: absolute;
+	top: 3000px;
+	left: 1%;
+	width: 15%;
+}
+
+.fundo4 {
+	position: absolute;
+	top: 3000px;
+	right: 1%;
+	width: 15%;
+	transform: rotate(180deg);
+}
+
+
+
+.carie-botao {	
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.carie-box {
+	color: var(--branco);
+	background-color: var(--azul-escuro);
+	font-size: 1.3rem;
+}
+
+.collapse {
+	
 }
