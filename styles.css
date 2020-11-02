@@ -99,7 +99,7 @@ body {
 
 .gif {
 	width: 350px;
-	height: 350px;
+	/*height: 350px;*/
 }
 
 .gif-escovacao {
@@ -114,6 +114,14 @@ body {
 	font-size: 1.5rem;
 	color: var(--branco);
 	padding: 15px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .conjunto-gif-texto {
@@ -162,7 +170,6 @@ body {
 	top: 3000px;
 	right: 1%;
 	width: 15%;
-	transform: rotate(180deg);
 }
 
 
