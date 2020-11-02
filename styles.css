@@ -56,7 +56,7 @@ p {
 
 
 #barra-de-navegacao, #item-barra-de-navegacao {
-    background-color: #00334e;
+    background-color: var(--azul-escuro);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -113,7 +113,7 @@ p {
 }
 
 .gif-escovacao {
-	border: 15px solid #00334e;
+	border: 15px solid var(--azul-escuro);
 }
 
 .gif-fiodental {
