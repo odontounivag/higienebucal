@@ -149,6 +149,8 @@ p {
 	padding: 15px;
 }
 
+
+
 .texto-menor {
 	font-size: 1.5rem;
 	color: var(--branco);
@@ -164,6 +166,7 @@ p {
 @media (max-width: 1200px) {
 	.texto {
 		padding-top: 30px;
+		font-size: 1.5rem;
 	}
 	.conjunto-gif-texto, .row {
 		padding-top: 10px;
@@ -252,3 +255,9 @@ p {
 	background-color: var(--azul-escuro);
 	font-size: 1.3rem;
 }
+
+
+@media (max-width: 1200px) {
+	.carie-botao, .anterior-botao {
+	font-size: 1.5rem;
+}}	
