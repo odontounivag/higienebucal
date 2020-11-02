@@ -2,7 +2,6 @@
 <html lang="pt">
 
 <head>
-
 	<!-- Codificação de caracteres -->
 	<meta charset="UTF-8">
 
@@ -40,27 +39,22 @@
 </head>
 
 <body>
+	<div class="pagina-inteira" data-rellax-zindex="1">
 
-	<!--<img src="media/fundo.png" class="fundo rellax" data-rellax-speed="-5" data-rellax-zindex="1">-->
 
-	<div class="pagina-inteira" data-rellax-zindex="2">
 
-		<section id="barra-de-navegacao">
-
+		<section id="barra-de-navegacao"> <!-- Barra de navegação -->
 			<div class="container-barra-de-navegacao container-fluid">
 				<nav class="nav-barra-de-navegacao navbar navbar-expand-lg navbar-dark">
-
 					<!-- Ícone -->
 					<a class="navbar-brand" href="index.html">
 						<img class="logomarca-barra-de-navegacao" src="media/dentadura.png" alt="Ícone">
 					</a>
-
 					<!-- Botão da barra de navegação para dimensões mobile -->
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ConteudoNavbar"
 						aria-controls="ConteudoNavbar" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-
 					<!-- Conteúdo da barra de navegação -->
 					<div class="conteudo-barra-de-navegacao collapse navbar-collapse" id="ConteudoNavbar">
 						<ul class="navbar-nav ml-auto">
@@ -73,179 +67,212 @@
 										src="media/fio.png"></a>
 							</li>
 							<li class="item-barra-de-navegacao nav-item">
-								<a class="nav-link" href="#alimentacao">Alimentação <img class="icone"
-										src="media/cherry.png"></a>
+								<a class="nav-link" href="#mais">Mais Informações <img class="icone"
+										src="media/plus.png"></a>
 							</li>
 						</ul>
 					</div>
-
 				</nav>
 			</div> <!-- Fim container-da-barra-de-navegacao -->
-
 		</section> <!-- Fim barra-de-navegacao -->
 
-		<section id="escovacao">
+
+
+		<!-- FUNDO -->
+		<img src="media/escova2_tilted.png" class="fundo1 rellax" data-rellax-speed="3" data-rellax-zindex="0">
+		<img src="media/pasta_tilted.png" class="fundo2 rellax" data-rellax-speed="3" data-rellax-zindex="0">
+		<img src="media/fio_so.png" class="fundo3 rellax" data-rellax-speed="3" data-rellax-zindex="0">
+		<img src="media/fio_so2.png" class="fundo4 rellax" data-rellax-speed="3" data-rellax-zindex="0">
+		<!-- FIM FUNDO -->
 
 
 
-			<img src="media/escova2_tilted.png" class="fundo1 rellax" data-rellax-speed="3" data-rellax-zindex="1">
-			<img src="media/pasta_tilted.png" class="fundo2 rellax" data-rellax-speed="3" data-rellax-zindex="1">
-
-
+		<section id="escovacao"> <!-- ESCOVACAO -->
 			<div class="main-div">
 				<h1 class="titulo">Escovação</h1>
 				<div class="container">
-					<div class="row conjunto-gif-texto">
+
+
+					<div class="row conjunto-gif-texto"> <!-- PRIMEIRO TEXTO/GIF ESCOVACAO -->
 						<!-- Colunas -->
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-escovacao" autoplay loop muted inline> <source src="media/escovacao/frente_rotated.mp4" type="video/mp4"></video>
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/frente_rotated.mp4" type="video/mp4"></video>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-right">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation <a class="btn btn-warning btn-sm carie-botao" data-toggle="collapse"
-									href="#carie" role="button" aria-expanded="false" aria-controls="carie">cárie</a>
-								laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-								in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-direita">
+								Para ter uma boa escovação, use uma pequena quantidade de creme dental, e dê preferência a uma escova macia. Inicie a escovação pelos dentes <a class="btn btn-warning btn-sm anterior-botao" data-toggle="collapse"
+									href="#anterior" role="button" aria-expanded="false" aria-controls="anterior">anteriores</a> com movimentos circulares.
 							</p>
-							<div class="collapse" id="carie">
-								<div class="card card-body carie-box">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-									richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-									cred nesciunt sapiente ea proident.
+						</div>
+							<div class="collapse" id="anterior">
+								<div class="card card-body anterior-box">
+										Os dentes anteriores são aqueles popularmente chamados de "dentes da frente".
 								</div>
 							</div>
+					</div>
+
+
+					<div class="row conjunto-gif-texto"> <!-- SEGUNDO TEXTO/GIF ESCOVACAO -->
+						<!-- Colunas -->
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-celular">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/atrasdafrente_rotated.mp4" type="video/mp4"></video>
+						</div>
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-esquerda">
+								Continue na face interna dos dentes com movimentos de dentro para fora.		
+							</p>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-desktop">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/atrasdafrente_rotated.mp4" type="video/mp4"></video>
 						</div>
 					</div>
-					<div class="row conjunto-gif-texto">
+
+
+					<div class="row conjunto-gif-texto"> <!-- TERCEIRO TEXTO/GIF ESCOVACAO -->
 						<!-- Colunas -->
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-left">
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/reto_rotated.mp4">
+						</div>
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-direita">
+								Certifique-se de que todas as faces de todos os dentes sejam escovadas. Por escovar os dentes dessa forma três vezes ao dia, você estará previnindo a formação de 
+								 <a class="btn btn-warning btn-sm carie-botao" data-toggle="collapse"
+									href="#carie" role="button" aria-expanded="false" aria-controls="carie">cáries</a>
+.
+							</p>
+						</div>
+							<div class="collapse" id="carie">
+								<div class="card card-body carie-box">
+“Cárie" é uma outra forma de denominar a deterioração do dente. A deterioração do dente é fortemente influenciada pelo estilo de vida do indivíduo - o que come, como cuida dos dentes, a presença de flúor na água ingerida e o flúor no creme dental de uso. A hereditariedade também tem um papel importante na predisposição de seus dentes para se deteriorarem.
+								</div>
+							</div>
+					</div>
+
+
+<!--					<div class="row conjunto-gif-texto"> 
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-celular">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/atrasfundo_rotated.mp4">
+						</div>
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-esquerda">
+								
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
 								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 								mollit anim id est laborum.
+
 							</p>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-escovacao" autoplay loop muted inline> <source src="media/escovacao/atrasdafrente_rotated.mp4" type="video/mp4"></video>
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-desktop">
+							<video class="gif gif-escovacao" autoplay loop muted inline>
+								<source src="media/escovacao/atrasfundo_rotated.mp4">
 						</div>
 					</div>
-					<div class="row conjunto-gif-texto">
-						<!-- Colunas -->
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-escovacao" autoplay loop muted inline> <source src="media/escovacao/atrasdafrentedebaixo_rotated.mp4">
-						</div>
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-right">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
-							</p>
-						</div>
-					</div>
-					<div class="row conjunto-gif-texto">
-						<!-- Colunas -->
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-left">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
-							</p>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-escovacao" autoplay loop muted inline> <source src="media/escovacao/atrasfundo_rotated.mp4">
-						</div>
-					</div>
+-->
+
 				</div>
 			</div>
-
 		</section> <!-- Fim escovação -->
 
-		<section id="fiodental">
 
-			<img src="media/fio_so.png" class="fundo3 rellax" data-rellax-speed="3" data-rellax-zindex="1">
 
-			<img src="media/fio_so2.png" class="fundo4 rellax" data-rellax-speed="3" data-rellax-zindex="1">
-
+		<section id="fiodental"> <!-- FIO DENTAL -->
 			<div class="main-div">
 				<h1 class="titulo">Fio Dental</h1>
 				<div class="container">
-					<div class="row conjunto-gif-texto">
+
+
+					<div class="row conjunto-gif-texto"> <!-- PRIMEIRO TEXTO/GIF FIO -->
 						<!-- Colunas -->
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-left">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-celular">
+							<video class="gif gif-fiodental" autoplay loop muted inline>
+								<source src="media/fio/2.mp4">
+						</div>
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-esquerda">
+								É recomendado que se use o fio dental ao menos uma vez ao dia, ele remove os resíduos de alimentos das áreas onde a escova não tem acesso. Comece a limpeza pelos dentes de trás. Faça movimentos suaves para não machucar a gengiva. 
 							</p>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-fiodental" autoplay loop muted inline> <source src="media/fio/1.mp4">
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-desktop">
+							<video class="gif gif-fiodental" autoplay loop muted inline>
+								<source src="media/fio/2.mp4">
 						</div>
 					</div>
-					<div class="row conjunto-gif-texto">
+
+
+					<div class="row conjunto-gif-texto"> <!-- SEGUNDO TEXTO/GIF FIO -->
 						<!-- Colunas -->
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-fiodental" autoplay loop muted inline> <source src="media/fio/2.mp4">
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video">
+							<video class="gif gif-fiodental" autoplay loop muted inline>
+								<source src="media/fio/3.mp4">
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-right">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							<p class="texto text-direita">
+								O objetivo é passar o fio dental por todas as laterais de todos os dentes, usando sempre uma parte limpa do fio em cada área.
 							</p>
 						</div>
 					</div>
-					<div class="row conjunto-gif-texto">
+
+
+					<div class="row conjunto-gif-texto"> <!-- TERCEIRO TEXTO/GIF FIO -->
 						<!-- Colunas -->
-						<div class="col-lg-8 col-md-8 col-sm-12">
-							<p class="text text-left">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-celular">
+							<video class="gif gif-fiodental" autoplay loop muted inline>
+								<source src="media/fio/1.mp4">
+						</div>
+						<div class="col-lg-8 col-md-12 col-sm-12 coluna-video">
+							<p class="texto text-esquerda">
+								O uso diário do fio dental evita a formação da placa, problema responsável pela criação de tártaro, que se formado só poderá ser removido por um dentista.
 							</p>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<video class="gif gif-fiodental" autoplay loop muted inline> <source src="media/fio/3.mp4">
+						<div class="col-lg-4 col-md-12 col-sm-12 coluna-video video-desktop">
+							<video class="gif gif-fiodental" autoplay loop muted inline>
+								<source src="media/fio/1.mp4">
 						</div>
 					</div>
+
+
 				</div>
 			</div>
-
 		</section> <!-- Fim fiodental -->
 
-		<section id="alimentacao">
+
+
+		<section id="mais">
 
 			<div class="main-div">
-				<h1 class="titulo">Alimentação</h1>
-				<div class="container">
-					<div class="row conjunto-gif-texto">
-						<!-- Colunas -->
-					</div>
-				</div>
+				<h1 class="titulo">Mais Informações</h1>
+				<p class="texto-menor">
+Sem dúvidas, entre os fatores de grande importância para manter um sorriso saudável, ao longo da maturidade, o principal é manter uma boa
+higiene bucal. Hábitos diários, aparentemente simples, podem resultar em um belo sorriso, tais como: Escovar os dentes três vezes ao dia,
+passar o fio dental diariamente e ter
+consultas com um dentista para um acompanhamento de sua saúde bucal.
+No entanto, temos ciência de que esses hábitos não são corretamente efetuados pela população, em função da falta de conhecimentos sobre o
+assunto, falta de disciplina e até mesmo o descaso em reservar um tempo do dia para higienização bucal. Tendo em vista que fatores, como
+tempo de trabalho, também influenciam no tempo disponível para que se tenha esse cuidado com a boca. Fatos que podem ser observados nos
+estudos publicados na revista COORTE, Revista Científica do Hospital de Santa Rosa.
+Logo, é possível deduzir que a higienização bucal é de suma importância para se ter uma excelente saúde bucal, mas há outros fatores que
+influenciam na propagação de cárie e outras doenças bucais, sendo um deles o consumo alimentos ricos em açúcares e amido fora dos horários das
+refeições, esse hábito apresenta conexão perfeita para que a doença cárie seja desenvolvida. A escovação após a ingestão de qualquer
+alimento é necessária para que não haja acúmulo de placas bacterianas (REIS et al., 2010).
+</p><p class="texto-menor">
+REFERÊNCIAS:
+R.G.Martins, S.N.Gomes, S.A.F.Santos, S.C.D.F.Moreira, B.G.Prado, Relação entre saúde bucal e consumo alimentar – Centro Universitário de
+Várzea Grande MT 2019.
+				</p>
+				<p class="texto-menor">
+				IMAGENS: https://pixabay.com/
+				</p>
 			</div>
 
-		</section> <!-- Fim alimentacao -->
+		</section> <!-- Fim mais -->
 	</div> <!-- Fim pagina-inteira -->
 	<!-- JavaScript do Bootstrap 4.5.0 -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -261,6 +288,7 @@
 	<script>
 		const rellax = new Rellax('.rellax')
 	</script>
+
 </body>
 
 </html>

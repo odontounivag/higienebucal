@@ -28,6 +28,10 @@ body {
     background-color: var(--azul-claro);
 }
 
+p {
+	text-align: center;
+}
+
 .main-div {
     padding: 50px 12.5%;
 }
@@ -97,9 +101,15 @@ body {
     /*background-color: #ee6f57;*/
 }
 
+@media (max-width: 1200px) {
+	.titulo {
+		padding-bottom: 30px;
+	}
+}
+
 .gif {
-	width: 350px;
-	/*height: 350px;*/
+	width: 90%;
+	/*height: 18%;*/
 }
 
 .gif-escovacao {
@@ -110,23 +120,69 @@ body {
 	border: 15px solid var(--azul-claro);
 }
 
-.text {
-	font-size: 1.5rem;
+.video-celular {
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	.gif {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin: auto;
+	}
+	.coluna-video {
+		text-align: center;
+	}
+	.video-desktop {
+		display: none;
+	}
+	.video-celular {
+		display: block;
+	}
+}
+
+.texto {
+	font-size: 2.0rem;
 	color: var(--branco);
 	padding: 15px;
 }
 
-.text-left {
-	text-align: left;
-}
-
-.text-right {
-	text-align: right;
+.texto-menor {
+	font-size: 1.5rem;
+	color: var(--branco);
+	padding: 15px;
+	text-align: justify;
 }
 
 .conjunto-gif-texto {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+	.texto {
+		padding-top: 30px;
+	}
+	.conjunto-gif-texto, .row {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.text-esquerda {
+	text-align: left;
+}
+
+.text-direita {
+	text-align: right;
+}
+
+@media (max-width: 1200px) {
+	.text-esquerda, .text-direita {
+		text-align: center;
+	}
 }
 
 .icone {
@@ -160,32 +216,39 @@ body {
 
 .fundo3 {
 	position: absolute;
-	top: 3000px;
+	top: 2200px;
 	left: 1%;
 	width: 15%;
 }
 
 .fundo4 {
 	position: absolute;
-	top: 3000px;
+	top: 2600px;
 	right: 1%;
 	width: 15%;
 }
 
 
-
-.carie-botao {	
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-	font-size: 1.5rem;
+@media (max-width: 1200px) {
+	.fundo3 {
+		top: 4000px;
+	}
+	.fundo4 {
+		top: 5400px;
+	}
+	.fundo2 {
+		top: 1400px;
+	}
 }
 
-.carie-box {
+.carie-botao, .anterior-botao {	
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+	font-size: 2rem;
+}
+
+.carie-box, .anterior-box {
 	color: var(--branco);
 	background-color: var(--azul-escuro);
 	font-size: 1.3rem;
-}
-
-.collapse {
-	
 }
